@@ -1,3 +1,4 @@
+import 'package:doc_doc/core/helpers/spacing.dart';
 import 'package:doc_doc/core/themes/styles.dart';
 import 'package:doc_doc/features/onboarding/widgets/doc_logo_and_name.dart';
 import 'package:doc_doc/features/onboarding/widgets/doctor_image_and_text.dart';
@@ -21,7 +22,7 @@ class OnboardingScreen extends StatelessWidget {
             child: Column(
               children: [
                 const DocLogoAndName(),
-                SizedBox(height: 30.h),
+                verticalSpace(30.0),
                 const DoctorImageAndText(),
                 Padding(
                   padding: EdgeInsets.symmetric(
@@ -31,10 +32,10 @@ class OnboardingScreen extends StatelessWidget {
                     children: [
                       Text(
                         'Manage and schedule all of your medical appointments easily with Docdoc to get a new experience.',
-                        style: TextStyles.font13GreyRegular,
+                        style: TextStyles.font13GrayRegular,
                         textAlign: TextAlign.center,
                       ),
-                      SizedBox(height: 30.h),
+                      verticalSpace(30.0),
                       const GetStartedButton(),
                     ],
                   ),
