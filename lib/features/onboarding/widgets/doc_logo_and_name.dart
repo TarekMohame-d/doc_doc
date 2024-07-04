@@ -1,6 +1,6 @@
+import 'package:doc_doc/core/helpers/spacing.dart';
 import 'package:doc_doc/core/themes/styles.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class DocLogoAndName extends StatelessWidget {
@@ -12,10 +12,10 @@ class DocLogoAndName extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         SvgPicture.asset('assets/svgs/docdoc_logo.svg'),
-        SizedBox(width: 10.w),
+        horizontalSpace(10.0),
         Text(
           'DocDoc',
-          style: TextStyles.font24Black700Weight,
+          style: TextStyles.font24BlackBold,
         ),
       ],
     );
