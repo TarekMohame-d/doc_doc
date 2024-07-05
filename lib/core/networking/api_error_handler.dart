@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:doc_doc/core/networking/api_constants.dart';
-import 'package:doc_doc/core/networking/api_error_model.dart';
+import 'api_constants.dart';
+import 'api_error_model.dart';
 
 // TODO: wallahy I will refactor this .. Omar Ahmed
 enum DataSource {

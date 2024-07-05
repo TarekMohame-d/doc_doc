@@ -1,11 +1,11 @@
-import 'package:doc_doc/core/di/dependency_injection.dart';
-import 'package:doc_doc/core/routing/routes.dart';
-import 'package:doc_doc/features/home/ui/home_screen.dart';
-import 'package:doc_doc/features/login/logic/cubit/login_cubit.dart';
-import 'package:doc_doc/features/login/ui/login_screen.dart';
-import 'package:doc_doc/features/onBoarding/onBoarding_screen.dart';
-import 'package:doc_doc/features/sign_up/logic/cubit/sign_up_cubit.dart';
-import 'package:doc_doc/features/sign_up/ui/sign_up_screen.dart';
+import '../di/dependency_injection.dart';
+import 'routes.dart';
+import '../../features/home/ui/home_screen.dart';
+import '../../features/login/logic/cubit/login_cubit.dart';
+import '../../features/login/ui/login_screen.dart';
+import '../../features/onBoarding/onBoarding_screen.dart';
+import '../../features/sign_up/logic/cubit/sign_up_cubit.dart';
+import '../../features/sign_up/ui/sign_up_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

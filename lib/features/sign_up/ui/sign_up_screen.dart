@@ -1,14 +1,15 @@
-import 'package:doc_doc/core/helpers/spacing.dart';
-import 'package:doc_doc/core/themes/styles.dart';
-import 'package:doc_doc/core/widgets/app_text_button.dart';
-import 'package:doc_doc/features/login/ui/widgets/terms_and_conditions_text.dart';
-import 'package:doc_doc/features/sign_up/logic/cubit/sign_up_cubit.dart';
-import 'package:doc_doc/features/sign_up/ui/widgets/already_have_account_text.dart';
-import 'package:doc_doc/features/sign_up/ui/widgets/sign_up_bloc_listener.dart';
-import 'package:doc_doc/features/sign_up/ui/widgets/sign_up_form.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import '../../../core/helpers/spacing.dart';
+import '../../../core/themes/styles.dart';
+import '../../../core/widgets/app_text_button.dart';
+import '../../login/ui/widgets/terms_and_conditions_text.dart';
+import '../logic/cubit/sign_up_cubit.dart';
+import 'widgets/already_have_account_text.dart';
+import 'widgets/sign_up_bloc_listener.dart';
+import 'widgets/sign_up_form.dart';
 
 class SignupScreen extends StatelessWidget {
   const SignupScreen({super.key});

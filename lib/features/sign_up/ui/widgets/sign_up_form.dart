@@ -1,5 +1,5 @@
-import 'package:doc_doc/core/helpers/app_regex.dart';
-import 'package:doc_doc/features/sign_up/logic/cubit/sign_up_cubit.dart';
+import '../../../../core/helpers/app_regex.dart';
+import '../../logic/cubit/sign_up_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../../core/helpers/spacing.dart';

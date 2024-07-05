@@ -1,6 +1,6 @@
-import 'package:doc_doc/core/helpers/extensions.dart';
-import 'package:doc_doc/core/routing/routes.dart';
-import 'package:doc_doc/core/themes/styles.dart';
+import '../../../../core/helpers/extensions.dart';
+import '../../../../core/routing/routes.dart';
+import '../../../../core/themes/styles.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 

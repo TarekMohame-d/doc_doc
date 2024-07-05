@@ -1,10 +1,11 @@
-import 'package:doc_doc/core/helpers/spacing.dart';
-import 'package:doc_doc/core/themes/styles.dart';
-import 'package:doc_doc/features/onboarding/widgets/doc_logo_and_name.dart';
-import 'package:doc_doc/features/onboarding/widgets/doctor_image_and_text.dart';
-import 'package:doc_doc/features/onboarding/widgets/get_started_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import '../../core/helpers/spacing.dart';
+import '../../core/themes/styles.dart';
+import '../onboarding/widgets/doc_logo_and_name.dart';
+import '../onboarding/widgets/doctor_image_and_text.dart';
+import '../onboarding/widgets/get_started_button.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});

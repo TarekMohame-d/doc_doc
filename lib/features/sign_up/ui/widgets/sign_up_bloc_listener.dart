@@ -1,7 +1,7 @@
-import 'package:doc_doc/core/helpers/extensions.dart';
-import 'package:doc_doc/core/themes/colors.dart';
-import 'package:doc_doc/core/themes/styles.dart';
-import 'package:doc_doc/features/sign_up/logic/cubit/sign_up_state.dart';
+import '../../../../core/helpers/extensions.dart';
+import '../../../../core/themes/colors.dart';
+import '../../../../core/themes/styles.dart';
+import '../../logic/cubit/sign_up_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../../core/routing/routes.dart';

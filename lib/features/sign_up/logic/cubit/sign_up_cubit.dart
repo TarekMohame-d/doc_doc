@@ -1,6 +1,6 @@
-import 'package:doc_doc/features/sign_up/data/models/sign_up_request_body.dart';
-import 'package:doc_doc/features/sign_up/data/repos/sign_up_repo.dart';
-import 'package:doc_doc/features/sign_up/logic/cubit/sign_up_state.dart';
+import '../../data/models/sign_up_request_body.dart';
+import '../../data/repos/sign_up_repo.dart';
+import 'sign_up_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
