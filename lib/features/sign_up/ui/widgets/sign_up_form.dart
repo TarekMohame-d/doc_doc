@@ -1,10 +1,12 @@
-import '../../../../core/helpers/app_regex.dart';
-import '../../logic/cubit/sign_up_cubit.dart';
+import 'package:doc_doc/core/themes/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../../../../core/helpers/app_regex.dart';
 import '../../../../core/helpers/spacing.dart';
 import '../../../../core/widgets/app_text_form_field.dart';
 import '../../../login/ui/widgets/password_validations.dart';
+import '../../logic/cubit/sign_up_cubit.dart';
 
 class SignupForm extends StatefulWidget {
   const SignupForm({super.key});
@@ -97,6 +99,7 @@ class _SignupFormState extends State<SignupForm> {
               },
               child: Icon(
                 isPasswordObscureText ? Icons.visibility_off : Icons.visibility,
+                color: ColorsManager.mainBlue,
               ),
             ),
             validator: (value) {
@@ -122,6 +125,7 @@ class _SignupFormState extends State<SignupForm> {
                 isPasswordConfirmationObscureText
                     ? Icons.visibility_off
                     : Icons.visibility,
+                color: ColorsManager.mainBlue,
               ),
             ),
             validator: (value) {
