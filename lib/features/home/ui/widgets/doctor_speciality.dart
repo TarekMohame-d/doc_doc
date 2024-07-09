@@ -1,45 +1,14 @@
 import 'package:doc_doc/core/helpers/spacing.dart';
 import 'package:doc_doc/core/themes/styles.dart';
+import 'package:doc_doc/features/home/data/models/specializations_response_model.dart';
+import 'package:doc_doc/features/home/ui/widgets/doctor_speciality_list_view_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class DoctorSpeciality extends StatelessWidget {
-  DoctorSpeciality({super.key});
+  final List<SpecializationsData?> specializationDataList;
 
-  final List<DoctorSpecialityItemModel> doctorSpecialityList = [
-    DoctorSpecialityItemModel(
-      speciality: 'General',
-      image: 'assets/images/man_doctor.png',
-    ),
-    DoctorSpecialityItemModel(
-      speciality: 'Neurologic',
-      image: 'assets/images/brain.png',
-    ),
-    DoctorSpecialityItemModel(
-      speciality: 'Pediatric',
-      image: 'assets/images/baby.png',
-    ),
-    DoctorSpecialityItemModel(
-      speciality: 'Radiology',
-      image: 'assets/images/kidneys.png',
-    ),
-    DoctorSpecialityItemModel(
-      speciality: 'General',
-      image: 'assets/images/man_doctor.png',
-    ),
-    DoctorSpecialityItemModel(
-      speciality: 'Neurologic',
-      image: 'assets/images/brain.png',
-    ),
-    DoctorSpecialityItemModel(
-      speciality: 'Pediatric',
-      image: 'assets/images/baby.png',
-    ),
-    DoctorSpecialityItemModel(
-      speciality: 'Radiology',
-      image: 'assets/images/kidneys.png',
-    ),
-  ];
+  const DoctorSpeciality({super.key, required this.specializationDataList});
 
   @override
   Widget build(BuildContext context) {
@@ -63,57 +32,14 @@ class DoctorSpeciality extends StatelessWidget {
           height: 100.h,
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
-            itemBuilder: (context, index) => DoctorSpecialityItem(
+            itemBuilder: (context, index) => DoctorSpecialityListViewItem(
               index: index,
-              doctorSpecialityItemModel: doctorSpecialityList[index],
+              specializationsData: specializationDataList[index],
             ),
-            itemCount: doctorSpecialityList.length,
+            itemCount: specializationDataList.length,
           ),
         ),
       ],
     );
   }
-}
-
-class DoctorSpecialityItem extends StatelessWidget {
-  const DoctorSpecialityItem({
-    super.key,
-    required this.doctorSpecialityItemModel,
-    required this.index,
-  });
-  final DoctorSpecialityItemModel doctorSpecialityItemModel;
-  final int index;
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: EdgeInsetsDirectional.only(
-        start: index == 0 ? 0 : 24.0.w,
-      ),
-      child: Column(
-        children: [
-          CircleAvatar(
-            radius: 32,
-            backgroundColor: const Color(0xffF4F8FF),
-            child: Image.asset(
-              doctorSpecialityItemModel.image,
-              height: 40.0.h,
-              width: 40.0.w,
-            ),
-          ),
-          verticalSpace(8),
-          Text(
-            doctorSpecialityItemModel.speciality,
-            style: TextStyles.font12DArkBlueRegular,
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class DoctorSpecialityItemModel {
-  final String speciality;
-  final String image;
-
-  DoctorSpecialityItemModel({required this.speciality, required this.image});
 }
