@@ -1,10 +1,10 @@
-import 'package:doc_doc/core/helpers/spacing.dart';
-import 'package:doc_doc/features/home/data/models/specializations_response_model.dart';
-import 'package:doc_doc/features/home/logic/home_cubit.dart';
-import 'package:doc_doc/features/home/logic/home_state.dart';
-import 'package:doc_doc/features/home/ui/widgets/doctors_list/doctors_shimmer_loading.dart';
-import 'package:doc_doc/features/home/ui/widgets/specializations_list/speciality_list_view.dart';
-import 'package:doc_doc/features/home/ui/widgets/specializations_list/speciality_shimmer_loading.dart';
+import '../../../../../core/helpers/spacing.dart';
+import '../../../data/models/specializations_response_model.dart';
+import '../../../logic/home_cubit.dart';
+import '../../../logic/home_state.dart';
+import '../doctors_list/doctors_shimmer_loading.dart';
+import 'speciality_list_view.dart';
+import 'speciality_shimmer_loading.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

@@ -1,4 +1,4 @@
-import 'package:doc_doc/core/themes/colors.dart';
+import '../../../../../core/themes/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shimmer/shimmer.dart';

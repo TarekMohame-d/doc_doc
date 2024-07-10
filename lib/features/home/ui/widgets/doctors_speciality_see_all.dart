@@ -1,4 +1,4 @@
-import 'package:doc_doc/core/themes/styles.dart';
+import '../../../../core/themes/styles.dart';
 import 'package:flutter/material.dart';
 
 class DoctorsSpecialitySeeAll extends StatelessWidget {

@@ -1,6 +1,6 @@
-import 'package:doc_doc/features/home/data/models/specializations_response_model.dart';
-import 'package:doc_doc/features/home/logic/home_cubit.dart';
-import 'package:doc_doc/features/home/ui/widgets/specializations_list/speciality_list_view_item.dart';
+import '../../../data/models/specializations_response_model.dart';
+import '../../../logic/home_cubit.dart';
+import 'speciality_list_view_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

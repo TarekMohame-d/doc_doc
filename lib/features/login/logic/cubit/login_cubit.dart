@@ -1,6 +1,6 @@
-import 'package:doc_doc/core/helpers/constants.dart';
-import 'package:doc_doc/core/helpers/shared_pref_helper.dart';
-import 'package:doc_doc/core/networking/dio_factory.dart';
+import '../../../../core/helpers/constants.dart';
+import '../../../../core/helpers/shared_pref_helper.dart';
+import '../../../../core/networking/dio_factory.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

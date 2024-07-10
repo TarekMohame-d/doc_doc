@@ -1,8 +1,8 @@
-import 'package:doc_doc/core/helpers/bloc_observer.dart';
-import 'package:doc_doc/core/helpers/constants.dart';
-import 'package:doc_doc/core/helpers/extensions.dart';
-import 'package:doc_doc/core/helpers/shared_pref_helper.dart';
-import 'package:doc_doc/firebase_options.dart';
+import 'core/helpers/bloc_observer.dart';
+import 'core/helpers/constants.dart';
+import 'core/helpers/extensions.dart';
+import 'core/helpers/shared_pref_helper.dart';
+import 'firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

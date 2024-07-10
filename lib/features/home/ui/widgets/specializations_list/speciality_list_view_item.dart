@@ -1,7 +1,7 @@
-import 'package:doc_doc/core/helpers/spacing.dart';
-import 'package:doc_doc/core/themes/colors.dart';
-import 'package:doc_doc/core/themes/styles.dart';
-import 'package:doc_doc/features/home/data/models/specializations_response_model.dart';
+import '../../../../../core/helpers/spacing.dart';
+import '../../../../../core/themes/colors.dart';
+import '../../../../../core/themes/styles.dart';
+import '../../../data/models/specializations_response_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
